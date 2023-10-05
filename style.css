@@ -1,24 +1,55 @@
-header{
-    border-bottom: 1px solid black;
-  }
-  
-  main{
-    width: 800px;
-  }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  height: 10vh;
+}
+
+main {
+  width: 800px;
+  text-align: justify;
+  margin: auto;
+  position: relative;
+  height: 80vh;
+}
+
+aside {
+  width: 180px;
+  border: 1px solid black;
+  right: 0;
+  text-align: center;
+  position: absolute;
+}
+
+/* .botao :active {
     background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+    text-decoration: white;
+  } */
+.botao:active {
+  background-color: black;
+  color: orange;
+}
+
+.area2:hover {
+  background-color: white;
+  color: green;
+
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 10vh;
+  bottom: 0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: serif;
+}
